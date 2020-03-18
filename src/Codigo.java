@@ -7,15 +7,14 @@ public class Codigo {
     Scanner input = new Scanner(System.in);
 //=====================================================================================================================
     public void CodeOne(){
-        System.out.println("\n\t•• Verificar Par ou Impar ••\n");
         System.out.print("Digite o Numero a Verificar: ");
         setNumA(input.nextInt());
 
         if (getNumA() % 2 == 0){
-            System.out.println("\n\tO Numero " + getNumA() + " é Par");
+            System.out.println("\nO Numero " + getNumA() + " é Par");
         }
         if (getNumA() % 2 == 1){
-            System.out.println("\n\tO Numero " + getNumA() + " é Impar");
+            System.out.println("\nO Numero " + getNumA() + " é Impar");
         }
     }
 //=====================================================================================================================
